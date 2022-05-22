@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="static/styles.css" rel="stylesheet">
+    <title>Комментарии</title>
+</head>
+<body>
+    <form action="/api/comments" method="post" accept-charset="utf-8"
+      enctype="multipart/form-data">
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" value="" required>
+
+        <label for="text">Content</label>
+        <input id="text" name="text" type="text" value="" required>
+
+        <label for="files">Files</label>
+        <input id="files" name="files" type="file" value="" multiple/>
+
+        <input type="submit" value="submit"/>
+
+    </form>
+    <hr>
+    <script type="text/javascript" src="static/code.js"></script>
+</body>
+</html>

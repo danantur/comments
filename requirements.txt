@@ -1,0 +1,4 @@
+aiohttp
+sqlalchemy
+aiomysql
+aiohttp-jinja2
